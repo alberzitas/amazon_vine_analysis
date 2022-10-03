@@ -6,21 +6,24 @@ The purpose of this analysis was to analyze Amazon reviews for various video gam
 
 ## Results
 
+The following is a table fo the results on pgAdmin
+![](table.png)
+
 From the results of the analysis, we can see that there is a total of 1,785,997 reviews. However, we are only looking for reviews that contain 20 or more words since the rest are not useful. 
 
-![](count.png)
+![](resources/count.png)
 
 Out of all the results, we find that only about 65,379 had more than 20 words.
 
-![](total_votes_20.png)
+![](resources/total_votes_20.png)
 
 Narrowing the list further, helpful votes are those that are 50% or greater than the total votes. That narrows the list further down to 40,565.
 
-![](helpful.png)
+![](resources/helpful.png)
 
 Looking at these reviews, we can see that 94 are paid for the vine program and 40471 were unpaid.
 
-![](paid_vs_unpaid.png)
+![](resources/paid_vs_unpaid.png)
 
 • Filtering for 5-star reviews, the percentage of 5-star Vine reviews unpaid was 38.7%.
 • The percentage of 5 star reviews that were paid was 51.06%.

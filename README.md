@@ -9,6 +9,8 @@ The purpose of this analysis was to analyze Amazon reviews for various video gam
 The following is a table fo the results on pgAdmin
 ![](table.png)
 
+## Analysis
+
 From the results of the analysis, we can see that there is a total of 1,785,997 reviews. However, we are only looking for reviews that contain 20 or more words since the rest are not useful. 
 
 ![](resources/count.png)
